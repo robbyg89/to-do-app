@@ -1,16 +1,21 @@
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Todo App</title>
+    <meta name ="viewport" content="width=device-width, initial-scale=1">
+    <link rel = "stylesheet" type="text/css" href="style.css">
+    <title>To-Do App</title>
   </head>
   <body>
-    <h1>Todo App</h1>
-
+    <div header>
+        <h1>To-Do App</h1>
+    </div>
+    <div id="form">
     <form id="addTodoForm">
-      <label for="newTodoText">New Todo:</label>
-      <input type="text" id="newTodoText">
-      <button type="submit">Add Todo!</button>
+      <label for = "newTodoText">New To-do:</label>
+      <input type = "text" id="newTodoText">
+      <button type = "submit">Add To-Do!</button>
+      <button id = "delete">Delete To-Do</button>
     </form>
+    </div>
 
     <ul id="todoList">
     </ul>
